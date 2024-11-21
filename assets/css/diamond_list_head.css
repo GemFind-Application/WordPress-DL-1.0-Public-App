@@ -1,0 +1,329 @@
+/*::selection {
+    background-color: #E13300;
+    color: white;
+}
+
+::-moz-selection {
+    background-color: #E13300;
+    color: white;
+}
+a {
+    color: #003399;
+    background-color: transparent;
+    font-weight: normal;
+}
+
+h1 {
+    color: #444;
+    background-color: transparent;
+    border-bottom: 1px solid #D0D0D0;
+    font-size: 19px;
+    font-weight: normal;
+    margin: 0 0 14px 0;
+    padding: 14px 15px 10px 15px;
+}
+
+code {
+    font-family: Consolas, Monaco, Courier New, Courier, monospace;
+    font-size: 12px;
+    background-color: #f9f9f9;
+    border: 1px solid #D0D0D0;
+    color: #002166;
+    display: block;
+    margin: 14px 0 14px 0;
+    padding: 12px 10px 12px 10px;
+}
+
+#body {
+    margin: 0 15px 0 15px;
+}
+
+p.footer {
+    text-align: right;
+    font-size: 11px;
+    border-top: 1px solid #D0D0D0;
+    line-height: 32px;
+    padding: 0 10px 0 10px;
+    margin: 20px 0 0 0;
+}
+
+#container {
+    margin: 10px;
+    border: 1px solid #D0D0D0;
+    box-shadow: 0 0 8px #D0D0D0;
+}
+*/
+#search-diamonds .ui-slider-horizontal .ui-slider-range {
+    background-color: #000022;
+    border-color: #000022;
+}
+
+#search-diamonds .ui-slider .ui-slider-tooltip, #search-diamonds .ui-widget-content .ui-slider-handle {
+    background-color: #000022;
+}
+
+#search-diamonds .ui-slider .ui-slider-tooltip .ui-tooltip-pointer-down-inner {
+    border-top: 7px solid #000022 !important;
+}
+
+.diamond-filter-title ul li a:hover {
+    color: #828282;
+}
+
+.product-controler ul li a {
+    color: #828282;
+}
+
+.product-controler ul li a:hover {
+    color: #828282;
+}
+
+.filter-for-shape ul li .shape-type.selected {
+    background: #000022;
+}
+
+.filter-for-shape ul li .shape-type:hover {
+    background: #000022;
+}
+
+.filter-for-shape .cut-main ul li.active {
+    background: #000022;
+    color: #ffffff;
+}
+
+.filter-advanced .accordion:before, .change-view-result ul li.list-view a.active:before, .change-view-result ul li.grid-view a.active:before, .change-view-result ul li a.active:before, .search-in-table button {
+    background-color: #000022;
+    color: #ffffff;
+}
+
+.diamond-filter-title ul li a {
+    color: #828282;
+}
+
+.search-details .table thead tr th {
+    background: #000000;
+    color: #ffffff;
+}
+
+.search-details .table tbody tr th.table-selecter .state label:before {
+    border: 2px solid #000022;
+}
+
+.search-details .table tbody tr th.table-selecter input[type="checkbox"]:checked ~ .state label:after {
+    background-color: #000022;
+}
+
+.search-details .table tbody tr th.table-selecter .state label:after {
+    border: 1px solid #000022;
+}
+
+.search-details .table tbody tr th.table-selecter input[type="checkbox"]:checked ~ .state label:before {
+    background-color: #000022;
+}
+
+.search-details .table tbody tr:hover td, .search-details .table tbody tr:hover th {
+    background: #000000;
+    color: #ffffff;
+}
+
+.search-details .table tbody tr:hover td a {
+    color: #ffffff;
+}
+
+.grid-paginatin ul li.active {
+    background: #000022;
+    color: #ffffff;
+}
+
+.grid-paginatin ul li.active a {
+    background: #000022;
+    color: #ffffff;
+}
+
+.grid-paginatin ul li.active:hover, .diamond-page .diamond-action button.addtocart:hover, .prefrence-action .preference-btn:hover, .compare-actions .view-product:hover, .grid-paginatin a#compare-main:hover, .grid-paginatin ul li:not(.grid-previous):not(.grid-next) a:hover, .compare-actions .delete-row:before, .compare-actions .delete-row {
+    background: #000022;
+    color: #ffffff;
+}
+
+.change-view-result ul li.list-view a:hover, .change-view-result ul li.grid-view a:hover, .change-view-result ul li a:hover {
+    color: #ffffff;
+}
+
+.search-in-table button:hover {
+    background-color: #000022;
+    color: #ffffff;
+}
+
+.search-product-grid .product-details .product-box-pricing span {
+    color: #000022;
+}
+
+.product-details .product-box-action label {
+    color: #000022;
+}
+
+.product-details .product-box-action .state label:before {
+    border: 2px solid #000022;
+}
+
+.product-details .product-box-action .state label:after {
+    border: 1px solid #000022;
+}
+
+.product-details .product-box-action input[type="checkbox"]:checked ~ .state label:before {
+    background: #000022;
+}
+
+.product-details .product-box-action input[type="checkbox"]:checked ~ .state label:after {
+    background-color: #000022;
+}
+
+.product-controler ul li:before {
+    background-color: #000022;
+}
+
+.specification-title h4 a {
+    color: #828282;
+}
+
+.diamond-request-form .form-field .diamond-action span {
+    color: #000022;
+}
+
+.diamond-page .diamond-action button.addtocart {
+    background: #000022;
+    color: #ffffff;
+}
+
+.diamond-info h2 span {
+    color: #828282;
+}
+
+.diamond-request-form .form-field label input:focus, .diamond-request-form .form-field label textarea:focus {
+    border-color: #000022;
+}
+
+.prefrence-action .preference-btn {
+    background: #000022;
+    color: #ffffff;
+}
+
+.diamond-request-form .form-field .prefrence-area input:checked ~ label:before {
+    background: #000022;
+}
+
+.compare-product .filter-title ul.filter-left li:hover a {
+    color: #828282;
+}
+
+.color-filter ul li.active, .filter-details .polish-depth ul li.active {
+    background: #000022;
+    color: #ffffff;
+}
+
+.color-filter ul li:hover, .filter-details .polish-depth ul li:hover, .filter-for-shape .cut-main ul li:hover {
+    background: #000022;
+    color: #ffffff;
+}
+
+.ui-datepicker .ui-datepicker-prev span, .ui-datepicker .ui-datepicker-next span {
+    border-color: transparent #000022 transparent transparent;
+}
+
+.ui-datepicker .ui-datepicker-next span {
+    border-color: transparent transparent transparent #000022;
+}
+
+.ui-datepicker .ui-datepicker-calendar .ui-datepicker-today {
+    background: #000022;
+}
+
+.grid-paginatin a#compare-main {
+    background: #000022;
+    color: #ffffff;
+}
+
+.product-controler ul li a:hover {
+    color: #828282;
+}
+
+.product-slide-button .trigger-info:before {
+    color: #000022 !important;
+}
+
+.compare-actions .view-product {
+    background: #000022;
+    color: #ffffff;
+}
+
+.compare-info table tbody tr th:nth-child(1) a:hover:before, .compare-info table tbody tr th:nth-child(1) a:before {
+    background: #000022;
+}
+
+.compare-product .filter-title ul.filter-left li a {
+    color: #828282;
+}
+
+.compare-product .filter-title ul.filter-left li a:hover {
+    color: #828282;
+}
+
+.sumo_pagesize .optWrapper ul.options li.opt.selected {
+    background-color: #E4E4E4;
+    color: #000;
+}
+
+.SumoSelect > .optWrapper.multiple > .options li.opt.selected span i, .SumoSelect .select-all.selected > span i {
+    background-color: #000022 !important;
+}
+
+.diamond-report .view_text a {
+    color: #000022 !important;
+}
+
+.internalusemodel.modal-slide .modal-inner-wrap, .dealerinfopopup.modal-slide .modal-inner-wrap {
+    border: 2px solid #000022;
+}
+
+.internalusemodel.modal-slide header button, .dealerinfopopup.modal-slide header button, #internaluseform button.preference-btn {
+    background: #000022 !important;
+    box-shadow: none;
+    color: #ffffff;
+}
+
+a.internaluselink {
+    color: #000022;
+}
+
+a.internaluselink:hover {
+    color: #828282;
+}
+
+.internalusemodel .msg {
+    padding: 2px;
+    margin-bottom: 2px;
+}
+
+.internalusemodel .msg .error {
+    color: #e40f0f;
+}
+
+.internalusemodel .msg .success {
+    color: #29a529;
+}
+
+.breadcrumbs ul li a {
+    color: #828282 !important;
+}
+
+.breadcrumbs ul li a:hover {
+    color: #828282 !important;
+}
+
+svg#Capa_1 {
+    fill: #828282;
+}
+
+svg#Capa_1:hover {
+    fill: #828282;
+}
